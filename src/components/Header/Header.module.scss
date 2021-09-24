@@ -3,6 +3,12 @@
   background: lightcyan;
   padding: 1rem;
 
+  &__loading {
+    position: absolute;
+    right: 0;
+    top: 2px;
+  }
+
   &__search {
     position: relative;
     width: 300px;

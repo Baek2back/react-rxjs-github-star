@@ -1,4 +1,10 @@
 .Main {
-  background: blue;
   flex: 1 0;
+  overflow-y: scroll;
+
+  &__repo-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+  }
 }
